@@ -1,5 +1,5 @@
 a {
-	color: #000000;
+	color: #000;
 	text-decoration: none;
 }
 
@@ -93,16 +93,16 @@ nav {
 }
 
 body {
-    background-image: url("giphy.gif");
+    background-color: lightblue;
+    margin-left: 10em;
+    margin-right: 10em
 }
 
 h2 {
-    color: #FFFFFF;
     text-align: center;
 }
 
 h1 {
-    color: #FFFFFF;
     text-align: center;
 }
 
@@ -111,14 +111,13 @@ h1 {
     margin-right:0em
 }
 
-tr {
+#bouton {
+    color: #ecf0f1;
+    display: block;
+    font-size: 2em;
+    line-height: 1em;
+    margin-bottom: 20px;
+    outline: none;
+    text-decoration: none;
     text-align: center;
-}
-
-table{
-    color: #FFFFFF;
-}
-
-div{
-    color: #FFFFFF;
 }
