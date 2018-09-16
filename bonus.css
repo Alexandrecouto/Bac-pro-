@@ -4,7 +4,7 @@ a {
 }
 
 nav {
-    background: #000000;
+    background: #ffffff;
     left: 0;
     position: fixed;
     height: 100%;
@@ -12,9 +12,9 @@ nav {
     left: -400px;
     width: 400px;
     z-index: 999;
-
+    font-family: arial;
     transition: left 0.75s;
-    box-shadow: 3px 0 10px rgba(0,0,0,0.2); 
+    box-shadow: 3px 0 10px rgba(0,0,0,0.2);
 }
 
 #nav-left ul {
@@ -24,13 +24,14 @@ nav {
 
 #nav-left ul li a,
 #nav-left ul li span {
-    color: #ffffff;
+    color: #000000;
     display: block;
     font-size: 2em;
     line-height: 1em;
     margin-bottom: 20px;
     outline: none;
     text-decoration: none;
+    text-align: center;
     text-align: center;
 }
 
