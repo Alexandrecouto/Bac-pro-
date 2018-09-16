@@ -93,13 +93,19 @@ nav {
 }
 
 body {
-    background-color: lightblue;
+    background-color: #00A1F1;
     margin-left: 10em;
     margin-right: 10em
 }
 
 h2 {
     text-align: center;
+    background-color: #7CBB00;
+    border: 1px solid #7CBB00;
+    border-radius: 5px;
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
 }
 
 h1 {
@@ -109,4 +115,14 @@ h1 {
 #img {
     margin-left:0em;
     margin-right:0em
+}
+
+div {
+    font-family: arial;
+    background-color: #ffffff;
+    border-radius: 1%;
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+    padding-bottom: 1%;
 }
